@@ -1,0 +1,31 @@
+/* ESTRUTURA DO SITE*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS Heveltica, sans-serif";
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+	widows: 750;
+	margin: 0 auto;
+}
+
+#topo{
+	height: 150;
+	background: url(../imagens/detalhe-topo.png) no repeat right top;
+	padding-top: 25px;
+
+}
+
+.logo{
+	width: 152PX;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -300px;
+
+}
