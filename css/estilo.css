@@ -13,7 +13,7 @@ body{
 #container{
 	width: 750px;
 	margin: 0 auto;
-	border: 1px solid red;
+
 
 }
 
@@ -21,7 +21,6 @@ body{
 	height: 150px;
 	background: url(../imagens/detalhe-topo.png) no-repeat right top;
 	padding-top: 25px;
-	border: 1px solid red;
 }
 
 .logo{
@@ -100,7 +99,6 @@ body.fotos #navegacao a#fotos
 
 #lateral{
 	width: 180px;
-	background: yellow;
 	margin: 0 0 20px -750px;
 	float: left;
 }
@@ -137,6 +135,30 @@ body.fotos #navegacao a#fotos
 	margin: 0 0 20px 15px;
 	float: left;
 }
+
+
+/*Caixa*/
+.caixa {
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(..imagens/fundo-caixa.png);
+}
+
+h2 {
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+
 
 
 
